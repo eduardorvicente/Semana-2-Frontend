@@ -1,3 +1,75 @@
-table, th, td {
-    border: 1px solid black;
+html{
+    font-family: 'Montserrat', sans-serif;
 }
+
+footer {
+    background-color: #754a35;
+    color: white;
+    
+    width: 100%;
+    
+    
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+body {
+    background-color: #f1f0cc;
+    margin: 0;
+}
+
+header {
+    background-color: #d5bf86;
+    padding: 3rem 2 rem;
+    display: flex;
+}
+
+div table, div th, div td {
+    
+    text-align: center;
+    border: 1px solid black;
+    width: 350px;
+}
+
+div th{
+    background-color: #754a35;
+    color: white;
+}
+
+footer div table {
+    width: 100%;
+    border: 0ch;
+}
+
+footer div th, footer div td {
+    padding: 5px;
+    border: 0ch;
+    text-align: left;
+
+}
+.contenedor{
+    height: 200px;
+}
+.centrado{
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.left {
+    
+    float: left;
+    
+}
+
+.right{
+    float: right;
+}
+
+.center {
+    width: 800px;
+    margin: 0 auto;
+}
+

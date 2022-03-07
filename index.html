@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce de Leche</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="pasteleria.css">
+</head>
+<body>
+    <header >
+        <img src="./images/logopastel.png" width="150px" />
+        <h1 class="centrado">Arma tu pastel</h1>
+    </header>
+    
+    <section class="center">
+        <div class="contenedor">
+            <div class="left"> 
+                <h2>Pasteles</h2>
+                <table >
+                    <tr>
+                        <th>Sabores</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Chocolate</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Queso</td>
+                        <td>$120</td>
+                    </tr>
+                    <tr>
+                        <td>Cajeta</td>
+                        <td>$130</td>
+                    </tr>
+                    <tr>
+                        <td>Combinado</td>
+                        <td>$160</td>
+                    </tr>
+                </table>
+                
+            </div>
+        
+            <div class="right">
+                <h2>Cubiertas</h2>
+                <table>
+                    <tr>
+                        <th>Sabores</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Dulce de leche</td>
+                        <td>$40</td>
+                    </tr>
+                    <tr>
+                        <td>Crema batida</td>
+                        <td>$30</td>
+                    </tr>
+                        <td>Chocolate</td>
+                        <td>$20</td>
+                    </tr>
+                    <tr>
+                        <td>Combinado</td>
+                        <td>$60</td>
+                    </tr>
+                </table>
+        
+            </div>
+        </div>
+    </section>
+
+    <form class="center ">
+        <h2>Datos de pedido</h2>
+        <h3>Sabor de Pastel</h3>
+        <label for="flavor1">Chocolate</label>
+        <input type="checkbox" id="flavor1" name="flavor1" value="chocolate"><br>
+        <label for="flavor2">Queso</label>
+        <input type="checkbox" id="flavor2" name="flavor2" value="queso"><br>
+        <label for="flavor3">Cajeta</label>
+        <input type="checkbox" id="flavor3" name="flavor3" value="cajeta"><br>
+        <h3>Sabor de cubierta</h3>
+        <label for="cover1">Dulce de leche</label>
+        <input type="checkbox" id="cover1" name="cover1" value="dulce de leche"><br>
+        <label for="cover2">Crema batida</label>
+        <input type="checkbox" id="cover2" name="cover2" value="crema batida"><br>
+        <label for="cover3">Chocolate</label>
+        <input type="checkbox" id="cover3" name="cover3" value="cajeta"><br>
+        <h3>Datos personales</h3>
+        <label for="nombre">Nombre: </label>
+        <input id="nombre" type="text" name="nombre"><br><br>
+        <label for="telefono">Telefono: </label>
+        <input id="telefono" type="tel" name="telefono"><br><br>
+        <label for="correo">Correo electronico: </label>
+        <input id="correo" type="email" name="correo"><br><br>
+    
+        <label>Descripcion del pastel</label><br>
+        <textarea cols="100" rows="5"></textarea><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reinicar">
+
+
+    </form>
+    <a href="pastelero.html"> Pagina pastelero</a>
+    
+    <footer>
+        <div>
+            <table >
+                <tr>
+                    <th>Telefono</th>
+                    <th>Direccion</th>
+                    <th>Horario de atencion</th>
+                </tr>
+                <tr>
+                    <td>2295200072</td>
+                    <td>Sector popular 17, Miguel angel de quevedo</td>
+                    <td>09:00 am  - 08:00 pm</td>
+                </tr>
+                
+            </table>
+        </div>
+        
+
+    </footer>
+</body>
+</html>
